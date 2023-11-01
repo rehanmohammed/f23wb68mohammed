@@ -3,4 +3,10 @@ extends layout
 block content
   h1= title
  - let results = [{SportsCar: 'Ferari',Sportsperson: 'Salman',sportsbike: 'Fazer'},{SportsCar: 'BMW',Sportsperson: 'Sharuk',sportsbike: 'Bullet'},{SportsCar: 'Audi',Sportsperson: 'Amir',sportsbike: 'Thuderstrome'}]
- 
+ div(class="container-fluid")
+  div(class="row")
+    each item in results
+      div(class="col-sm-2")
+        p #{item.SportsCar}
+        p #{item.Sportsperson}
+        p #{item.sportsbike}
