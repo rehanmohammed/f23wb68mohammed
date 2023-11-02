@@ -3,6 +3,6 @@
 
 ## Class: Sports
 ### Attributes
-1) `SportsCar : String`
-2) `Sportsperson : string`
-3) `sportsbike : string`
+1) SportsCar : String
+2) Sportsperson : string
+3) sportsbike : string
